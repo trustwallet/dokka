@@ -1,0 +1,15 @@
+on:
+  schedule:
+    - cron: '0 8 * * 5'
+
+jobs:
+  release:
+    runs-on: macos-12
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Download
+        run: scripts/download.sh
+
+      - name: Process
+        run: scripts/process.sh
