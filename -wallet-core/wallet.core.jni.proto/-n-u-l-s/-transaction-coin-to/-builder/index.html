@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../../index.html">
+                    <span>WalletCore</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="WalletCore::wallet.core.jni.proto/NULS.TransactionCoinTo.Builder///PointingToDeclaration//274653044">
+  <div class="breadcrumbs"><a href="../../../../../index.html">WalletCore</a><span class="delimiter">/</span><a href="../../../index.html">wallet.core.jni.proto</a><span class="delimiter">/</span><a href="../../index.html">NULS</a><span class="delimiter">/</span><a href="../index.html">TransactionCoinTo</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a></div><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction to a destination
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> Protobuf type <code class="lang-kotlin">TW.NULS.Proto.TransactionCoinTo</code></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-194583741%2FFunctions%2F274653044" anchor-label="clearAssetsChainid" id="-194583741%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-assets-chainid.html"><span>clear</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Chainid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-194583741%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-assets-chainid.html"><span class="token function">clearAssetsChainid</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Chain ID
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_chainid = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-593801696%2FFunctions%2F274653044" anchor-label="clearAssetsId" id="-593801696%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-assets-id.html"><span>clear</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-593801696%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-assets-id.html"><span class="token function">clearAssetsId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">ID of the asset
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_id = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="970122859%2FFunctions%2F274653044" anchor-label="clearIdAmount" id="970122859%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-id-amount.html"><span>clear</span><wbr></wbr><span>Id</span><wbr></wbr><span><span>Amount</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="970122859%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-id-amount.html"><span class="token function">clearIdAmount</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">transaction amount (uint256, serialized little endian)
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes id_amount = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1488435398%2FFunctions%2F274653044" anchor-label="clearLockTime" id="1488435398%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-lock-time.html"><span>clear</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1488435398%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-lock-time.html"><span class="token function">clearLockTime</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">lock time
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 lock_time = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1985160291%2FFunctions%2F274653044" anchor-label="clearToAddress" id="1985160291%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-to-address.html"><span>clear</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1985160291%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-to-address.html"><span class="token function">clearToAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">destination address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string to_address = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-358786548%2FFunctions%2F274653044" anchor-label="getAssetsChainid" id="-358786548%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-assets-chainid.html"><span>get</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Chainid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-358786548%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-assets-chainid.html"><span class="token function">getAssetsChainid</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Chain ID
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_chainid = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="375782839%2FFunctions%2F274653044" anchor-label="getAssetsId" id="375782839%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-assets-id.html"><span>get</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="375782839%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-assets-id.html"><span class="token function">getAssetsId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">ID of the asset
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_id = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1939707394%2FFunctions%2F274653044" anchor-label="getIdAmount" id="1939707394%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-id-amount.html"><span>get</span><wbr></wbr><span>Id</span><wbr></wbr><span><span>Amount</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1939707394%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-id-amount.html"><span class="token function">getIdAmount</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">transaction amount (uint256, serialized little endian)
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes id_amount = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1836947363%2FFunctions%2F274653044" anchor-label="getLockTime" id="-1836947363%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-lock-time.html"><span>get</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1836947363%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-lock-time.html"><span class="token function">getLockTime</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">lock time
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 lock_time = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1977509804%2FFunctions%2F274653044" anchor-label="getToAddress" id="1977509804%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-to-address.html"><span>get</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977509804%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-to-address.html"><span class="token function">getToAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">destination address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string to_address = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2114160451%2FFunctions%2F274653044" anchor-label="getToAddressBytes" id="2114160451%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-to-address-bytes.html"><span>get</span><wbr></wbr><span>To</span><wbr></wbr><span>Address</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2114160451%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-to-address-bytes.html"><span class="token function">getToAddressBytes</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">destination address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string to_address = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-270472229%2FFunctions%2F274653044" anchor-label="setAssetsChainid" id="-270472229%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-assets-chainid.html"><span>set</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Chainid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-270472229%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-assets-chainid.html"><span class="token function">setAssetsChainid</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Chain ID
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_chainid = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1651886824%2FFunctions%2F274653044" anchor-label="setAssetsId" id="1651886824%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-assets-id.html"><span>set</span><wbr></wbr><span>Assets</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1651886824%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-assets-id.html"><span class="token function">setAssetsId</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">ID of the asset
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 assets_id = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1746199106%2FFunctions%2F274653044" anchor-label="setIdAmount" id="1746199106%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-id-amount.html"><span>set</span><wbr></wbr><span>Id</span><wbr></wbr><span><span>Amount</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1746199106%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-id-amount.html"><span class="token function">setIdAmount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">transaction amount (uint256, serialized little endian)
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes id_amount = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1364498050%2FFunctions%2F274653044" anchor-label="setLockTime" id="1364498050%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-lock-time.html"><span>set</span><wbr></wbr><span>Lock</span><wbr></wbr><span><span>Time</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1364498050%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-lock-time.html"><span class="token function">setLockTime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">lock time
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">uint32 lock_time = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="813468595%2FFunctions%2F274653044" anchor-label="setToAddress" id="813468595%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-to-address.html"><span>set</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="813468595%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-to-address.html"><span class="token function">setToAddress</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">destination address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string to_address = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2002778941%2FFunctions%2F274653044" anchor-label="setToAddressBytes" id="-2002778941%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-to-address-bytes.html"><span>set</span><wbr></wbr><span>To</span><wbr></wbr><span>Address</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2002778941%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-to-address-bytes.html"><span class="token function">setToAddressBytes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">NULS.TransactionCoinTo.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">destination address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string to_address = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

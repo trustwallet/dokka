@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../../index.html">
+                    <span>WalletCore</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="WalletCore::wallet.core.jni.proto/Binance.CancelTradeOrder.Builder///PointingToDeclaration//274653044">
+  <div class="breadcrumbs"><a href="../../../../../index.html">WalletCore</a><span class="delimiter">/</span><a href="../../../index.html">wallet.core.jni.proto</a><span class="delimiter">/</span><a href="../../index.html">Binance</a><span class="delimiter">/</span><a href="../index.html">CancelTradeOrder</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a></div><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Message for CancelTrade order
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> Protobuf type <code class="lang-kotlin">TW.Binance.Proto.CancelTradeOrder</code></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-614274592%2FFunctions%2F274653044" anchor-label="clearRefid" id="-614274592%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-refid.html"><span>clear</span><wbr></wbr><span><span>Refid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-614274592%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-refid.html"><span class="token function">clearRefid</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">order id to cancel
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string refid = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-786432521%2FFunctions%2F274653044" anchor-label="clearSender" id="-786432521%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-sender.html"><span>clear</span><wbr></wbr><span><span>Sender</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-786432521%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-sender.html"><span class="token function">clearSender</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">originating address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes sender = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="96348148%2FFunctions%2F274653044" anchor-label="clearSymbol" id="96348148%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-symbol.html"><span>clear</span><wbr></wbr><span><span>Symbol</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="96348148%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-symbol.html"><span class="token function">clearSymbol</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">symbol for trading pair in full name of the tokens
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string symbol = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2125669929%2FFunctions%2F274653044" anchor-label="getRefid" id="2125669929%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-refid.html"><span>get</span><wbr></wbr><span><span>Refid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2125669929%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-refid.html"><span class="token function">getRefid</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">order id to cancel
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string refid = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-406630682%2FFunctions%2F274653044" anchor-label="getRefidBytes" id="-406630682%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-refid-bytes.html"><span>get</span><wbr></wbr><span>Refid</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-406630682%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-refid-bytes.html"><span class="token function">getRefidBytes</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">order id to cancel
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string refid = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1747498290%2FFunctions%2F274653044" anchor-label="getSender" id="-1747498290%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-sender.html"><span>get</span><wbr></wbr><span><span>Sender</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1747498290%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-sender.html"><span class="token function">getSender</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">originating address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes sender = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-864717621%2FFunctions%2F274653044" anchor-label="getSymbol" id="-864717621%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-symbol.html"><span>get</span><wbr></wbr><span><span>Symbol</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-864717621%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-symbol.html"><span class="token function">getSymbol</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">symbol for trading pair in full name of the tokens
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string symbol = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="296932740%2FFunctions%2F274653044" anchor-label="getSymbolBytes" id="296932740%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-symbol-bytes.html"><span>get</span><wbr></wbr><span>Symbol</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="296932740%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-symbol-bytes.html"><span class="token function">getSymbolBytes</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">symbol for trading pair in full name of the tokens
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string symbol = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-491153872%2FFunctions%2F274653044" anchor-label="setRefid" id="-491153872%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-refid.html"><span>set</span><wbr></wbr><span><span>Refid</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-491153872%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-refid.html"><span class="token function">setRefid</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">order id to cancel
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string refid = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="396912422%2FFunctions%2F274653044" anchor-label="setRefidBytes" id="396912422%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-refid-bytes.html"><span>set</span><wbr></wbr><span>Refid</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="396912422%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-refid-bytes.html"><span class="token function">setRefidBytes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">order id to cancel
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string refid = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1798108942%2FFunctions%2F274653044" anchor-label="setSender" id="1798108942%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-sender.html"><span>set</span><wbr></wbr><span><span>Sender</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1798108942%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-sender.html"><span class="token function">setSender</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">originating address
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes sender = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1826688454%2FFunctions%2F274653044" anchor-label="setSymbol" id="-1826688454%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-symbol.html"><span>set</span><wbr></wbr><span><span>Symbol</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1826688454%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-symbol.html"><span class="token function">setSymbol</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">symbol for trading pair in full name of the tokens
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string symbol = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="813689564%2FFunctions%2F274653044" anchor-label="setSymbolBytes" id="813689564%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-symbol-bytes.html"><span>set</span><wbr></wbr><span>Symbol</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="813689564%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-symbol-bytes.html"><span class="token function">setSymbolBytes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Binance.CancelTradeOrder.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">symbol for trading pair in full name of the tokens
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string symbol = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../../index.html">
+                    <span>WalletCore</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="WalletCore::wallet.core.jni.proto/Tron.Transaction.Builder///PointingToDeclaration//274653044">
+  <div class="breadcrumbs"><a href="../../../../../index.html">WalletCore</a><span class="delimiter">/</span><a href="../../../index.html">wallet.core.jni.proto</a><span class="delimiter">/</span><a href="../../index.html">Tron</a><span class="delimiter">/</span><a href="../index.html">Transaction</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a></div><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> Protobuf type <code class="lang-kotlin">TW.Tron.Proto.Transaction</code></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="1757196901%2FFunctions%2F274653044" anchor-label="clearBlockHeader" id="1757196901%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-block-header.html"><span>clear</span><wbr></wbr><span>Block</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1757196901%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-block-header.html"><span class="token function">clearBlockHeader</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction block header.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">.TW.Tron.Proto.BlockHeader block_header = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1958629300%2FFunctions%2F274653044" anchor-label="clearContractOneof" id="1958629300%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-contract-oneof.html"><span>clear</span><wbr></wbr><span>Contract</span><wbr></wbr><span><span>Oneof</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1958629300%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-contract-oneof.html"><span class="token function">clearContractOneof</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="676397260%2FFunctions%2F274653044" anchor-label="clearExpiration" id="676397260%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-expiration.html"><span>clear</span><wbr></wbr><span><span>Expiration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="676397260%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-expiration.html"><span class="token function">clearExpiration</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction expiration time in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 expiration = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2093043174%2FFunctions%2F274653044" anchor-label="clearFeeLimit" id="2093043174%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-fee-limit.html"><span>clear</span><wbr></wbr><span>Fee</span><wbr></wbr><span><span>Limit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2093043174%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-fee-limit.html"><span class="token function">clearFeeLimit</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction fee limit
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 fee_limit = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1003707770%2FFunctions%2F274653044" anchor-label="clearFreezeBalance" id="1003707770%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-freeze-balance.html"><span>clear</span><wbr></wbr><span>Freeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1003707770%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-freeze-balance.html"><span class="token function">clearFreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.FreezeBalanceContract freeze_balance = 12;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="515839689%2FFunctions%2F274653044" anchor-label="clearTimestamp" id="515839689%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-timestamp.html"><span>clear</span><wbr></wbr><span><span>Timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="515839689%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-timestamp.html"><span class="token function">clearTimestamp</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction timestamp in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 timestamp = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="717049488%2FFunctions%2F274653044" anchor-label="clearTransfer" id="717049488%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-transfer.html"><span>clear</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="717049488%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-transfer.html"><span class="token function">clearTransfer</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferContract transfer = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1007784954%2FFunctions%2F274653044" anchor-label="clearTransferAsset" id="1007784954%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-transfer-asset.html"><span>clear</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1007784954%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-transfer-asset.html"><span class="token function">clearTransferAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferAssetContract transfer_asset = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2087163723%2FFunctions%2F274653044" anchor-label="clearTransferTrc20Contract" id="-2087163723%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-transfer-trc20-contract.html"><span>clear</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Trc20Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2087163723%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-transfer-trc20-contract.html"><span class="token function">clearTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferTRC20Contract transfer_trc20_contract = 19;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-590126760%2FFunctions%2F274653044" anchor-label="clearTriggerSmartContract" id="-590126760%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-trigger-smart-contract.html"><span>clear</span><wbr></wbr><span>Trigger</span><wbr></wbr><span>Smart</span><wbr></wbr><span><span>Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-590126760%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-trigger-smart-contract.html"><span class="token function">clearTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TriggerSmartContract trigger_smart_contract = 18;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1978832831%2FFunctions%2F274653044" anchor-label="clearUnfreezeAsset" id="1978832831%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-unfreeze-asset.html"><span>clear</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1978832831%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-unfreeze-asset.html"><span class="token function">clearUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeAssetContract unfreeze_asset = 14;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2129616685%2FFunctions%2F274653044" anchor-label="clearUnfreezeBalance" id="-2129616685%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-unfreeze-balance.html"><span>clear</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2129616685%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-unfreeze-balance.html"><span class="token function">clearUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeBalanceContract unfreeze_balance = 13;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="635742137%2FFunctions%2F274653044" anchor-label="clearVoteAsset" id="635742137%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-vote-asset.html"><span>clear</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="635742137%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-vote-asset.html"><span class="token function">clearVoteAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteAssetContract vote_asset = 16;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="638084752%2FFunctions%2F274653044" anchor-label="clearVoteWitness" id="638084752%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-vote-witness.html"><span>clear</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Witness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="638084752%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-vote-witness.html"><span class="token function">clearVoteWitness</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteWitnessContract vote_witness = 17;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1980862829%2FFunctions%2F274653044" anchor-label="clearWithdrawBalance" id="1980862829%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-withdraw-balance.html"><span>clear</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1980862829%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-withdraw-balance.html"><span class="token function">clearWithdrawBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.WithdrawBalanceContract withdraw_balance = 15;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1164162094%2FFunctions%2F274653044" anchor-label="getBlockHeader" id="1164162094%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-block-header.html"><span>get</span><wbr></wbr><span>Block</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1164162094%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-block-header.html"><span class="token function">getBlockHeader</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>BlockHeader</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction block header.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">.TW.Tron.Proto.BlockHeader block_header = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2068501011%2FFunctions%2F274653044" anchor-label="getContractOneofCase" id="-2068501011%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-contract-oneof-case.html"><span>get</span><wbr></wbr><span>Contract</span><wbr></wbr><span>Oneof</span><wbr></wbr><span><span>Case</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2068501011%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-contract-oneof-case.html"><span class="token function">getContractOneofCase</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-contract-oneof-case/index.html">Tron.Transaction.ContractOneofCase</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1420942877%2FFunctions%2F274653044" anchor-label="getExpiration" id="-1420942877%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-expiration.html"><span>get</span><wbr></wbr><span><span>Expiration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1420942877%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-expiration.html"><span class="token function">getExpiration</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction expiration time in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 expiration = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1980643139%2FFunctions%2F274653044" anchor-label="getFeeLimit" id="-1980643139%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-fee-limit.html"><span>get</span><wbr></wbr><span>Fee</span><wbr></wbr><span><span>Limit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1980643139%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-fee-limit.html"><span class="token function">getFeeLimit</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction fee limit
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 fee_limit = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1967058685%2FFunctions%2F274653044" anchor-label="getFreezeBalance" id="-1967058685%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-freeze-balance.html"><span>get</span><wbr></wbr><span>Freeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1967058685%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-freeze-balance.html"><span class="token function">getFreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>FreezeBalanceContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.FreezeBalanceContract freeze_balance = 12;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1214384430%2FFunctions%2F274653044" anchor-label="getTimestamp" id="-1214384430%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-timestamp.html"><span>get</span><wbr></wbr><span><span>Timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1214384430%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-timestamp.html"><span class="token function">getTimestamp</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction timestamp in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 timestamp = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="938330471%2FFunctions%2F274653044" anchor-label="getTransfer" id="938330471%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-transfer.html"><span>get</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="938330471%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-transfer.html"><span class="token function">getTransfer</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>TransferContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferContract transfer = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1962981501%2FFunctions%2F274653044" anchor-label="getTransferAsset" id="-1962981501%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-transfer-asset.html"><span>get</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1962981501%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-transfer-asset.html"><span class="token function">getTransferAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>TransferAssetContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferAssetContract transfer_asset = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-943553730%2FFunctions%2F274653044" anchor-label="getTransferTrc20Contract" id="-943553730%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-transfer-trc20-contract.html"><span>get</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Trc20Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-943553730%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-transfer-trc20-contract.html"><span class="token function">getTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>TransferTRC20Contract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferTRC20Contract transfer_trc20_contract = 19;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1663521199%2FFunctions%2F274653044" anchor-label="getTriggerSmartContract" id="1663521199%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-trigger-smart-contract.html"><span>get</span><wbr></wbr><span>Trigger</span><wbr></wbr><span>Smart</span><wbr></wbr><span><span>Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1663521199%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-trigger-smart-contract.html"><span class="token function">getTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>TriggerSmartContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TriggerSmartContract trigger_smart_contract = 18;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-991933624%2FFunctions%2F274653044" anchor-label="getUnfreezeAsset" id="-991933624%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-unfreeze-asset.html"><span>get</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-991933624%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-unfreeze-asset.html"><span class="token function">getUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>UnfreezeAssetContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeAssetContract unfreeze_asset = 14;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-882928100%2FFunctions%2F274653044" anchor-label="getUnfreezeBalance" id="-882928100%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-unfreeze-balance.html"><span>get</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-882928100%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-unfreeze-balance.html"><span class="token function">getUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>UnfreezeBalanceContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeBalanceContract unfreeze_balance = 13;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1094481982%2FFunctions%2F274653044" anchor-label="getVoteAsset" id="-1094481982%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-vote-asset.html"><span>get</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1094481982%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-vote-asset.html"><span class="token function">getVoteAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>VoteAssetContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteAssetContract vote_asset = 16;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="45049945%2FFunctions%2F274653044" anchor-label="getVoteWitness" id="45049945%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-vote-witness.html"><span>get</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Witness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="45049945%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-vote-witness.html"><span class="token function">getVoteWitness</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>VoteWitnessContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteWitnessContract vote_witness = 17;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1067415882%2FFunctions%2F274653044" anchor-label="getWithdrawBalance" id="-1067415882%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-withdraw-balance.html"><span>get</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1067415882%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-withdraw-balance.html"><span class="token function">getWithdrawBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>WithdrawBalanceContract</div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.WithdrawBalanceContract withdraw_balance = 15;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1970431346%2FFunctions%2F274653044" anchor-label="hasBlockHeader" id="1970431346%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-block-header.html"><span>has</span><wbr></wbr><span>Block</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1970431346%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-block-header.html"><span class="token function">hasBlockHeader</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction block header.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">.TW.Tron.Proto.BlockHeader block_header = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-236420793%2FFunctions%2F274653044" anchor-label="hasFreezeBalance" id="-236420793%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-freeze-balance.html"><span>has</span><wbr></wbr><span>Freeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-236420793%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-freeze-balance.html"><span class="token function">hasFreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.FreezeBalanceContract freeze_balance = 12;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-743817565%2FFunctions%2F274653044" anchor-label="hasTransfer" id="-743817565%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-transfer.html"><span>has</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-743817565%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-transfer.html"><span class="token function">hasTransfer</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferContract transfer = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-232343609%2FFunctions%2F274653044" anchor-label="hasTransferAsset" id="-232343609%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-transfer-asset.html"><span>has</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-232343609%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-transfer-asset.html"><span class="token function">hasTransferAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferAssetContract transfer_asset = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1789357954%2FFunctions%2F274653044" anchor-label="hasTransferTrc20Contract" id="1789357954%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-transfer-trc20-contract.html"><span>has</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Trc20Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1789357954%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-transfer-trc20-contract.html"><span class="token function">hasTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferTRC20Contract transfer_trc20_contract = 19;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="227658987%2FFunctions%2F274653044" anchor-label="hasTriggerSmartContract" id="227658987%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-trigger-smart-contract.html"><span>has</span><wbr></wbr><span>Trigger</span><wbr></wbr><span>Smart</span><wbr></wbr><span><span>Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="227658987%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-trigger-smart-contract.html"><span class="token function">hasTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TriggerSmartContract trigger_smart_contract = 18;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="738704268%2FFunctions%2F274653044" anchor-label="hasUnfreezeAsset" id="738704268%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-unfreeze-asset.html"><span>has</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="738704268%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-unfreeze-asset.html"><span class="token function">hasUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeAssetContract unfreeze_asset = 14;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="107742560%2FFunctions%2F274653044" anchor-label="hasUnfreezeBalance" id="107742560%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-unfreeze-balance.html"><span>has</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="107742560%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-unfreeze-balance.html"><span class="token function">hasUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeBalanceContract unfreeze_balance = 13;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1701463546%2FFunctions%2F274653044" anchor-label="hasVoteAsset" id="-1701463546%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-vote-asset.html"><span>has</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1701463546%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-vote-asset.html"><span class="token function">hasVoteAsset</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteAssetContract vote_asset = 16;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="851319197%2FFunctions%2F274653044" anchor-label="hasVoteWitness" id="851319197%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-vote-witness.html"><span>has</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Witness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="851319197%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-vote-witness.html"><span class="token function">hasVoteWitness</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteWitnessContract vote_witness = 17;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-76745222%2FFunctions%2F274653044" anchor-label="hasWithdrawBalance" id="-76745222%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-withdraw-balance.html"><span>has</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-76745222%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-withdraw-balance.html"><span class="token function">hasWithdrawBalance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.WithdrawBalanceContract withdraw_balance = 15;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-494912514%2FFunctions%2F274653044" anchor-label="mergeBlockHeader" id="-494912514%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-block-header.html"><span>merge</span><wbr></wbr><span>Block</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-494912514%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-block-header.html"><span class="token function">mergeBlockHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>BlockHeader</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction block header.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">.TW.Tron.Proto.BlockHeader block_header = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="379517430%2FFunctions%2F274653044" anchor-label="mergeFreezeBalance" id="379517430%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-freeze-balance.html"><span>merge</span><wbr></wbr><span>Freeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="379517430%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-freeze-balance.html"><span class="token function">mergeFreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>FreezeBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.FreezeBalanceContract freeze_balance = 12;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-837381960%2FFunctions%2F274653044" anchor-label="mergeTransfer" id="-837381960%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-transfer.html"><span>merge</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-837381960%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-transfer.html"><span class="token function">mergeTransfer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferContract transfer = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1954445578%2FFunctions%2F274653044" anchor-label="mergeTransferAsset" id="-1954445578%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-transfer-asset.html"><span>merge</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1954445578%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-transfer-asset.html"><span class="token function">mergeTransferAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferAssetContract transfer_asset = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1578583198%2FFunctions%2F274653044" anchor-label="mergeTransferTrc20Contract" id="1578583198%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-transfer-trc20-contract.html"><span>merge</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Trc20Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1578583198%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-transfer-trc20-contract.html"><span class="token function">mergeTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferTRC20Contract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferTRC20Contract transfer_trc20_contract = 19;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1658818218%2FFunctions%2F274653044" anchor-label="mergeTriggerSmartContract" id="1658818218%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-trigger-smart-contract.html"><span>merge</span><wbr></wbr><span>Trigger</span><wbr></wbr><span>Smart</span><wbr></wbr><span><span>Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1658818218%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-trigger-smart-contract.html"><span class="token function">mergeTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TriggerSmartContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TriggerSmartContract trigger_smart_contract = 18;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1444047040%2FFunctions%2F274653044" anchor-label="mergeUnfreezeAsset" id="1444047040%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-unfreeze-asset.html"><span>merge</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1444047040%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-unfreeze-asset.html"><span class="token function">mergeUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>UnfreezeAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeAssetContract unfreeze_asset = 14;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1896975256%2FFunctions%2F274653044" anchor-label="mergeUnfreezeBalance" id="-1896975256%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-unfreeze-balance.html"><span>merge</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1896975256%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-unfreeze-balance.html"><span class="token function">mergeUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>UnfreezeBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeBalanceContract unfreeze_balance = 13;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2087810252%2FFunctions%2F274653044" anchor-label="mergeVoteAsset" id="-2087810252%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-vote-asset.html"><span>merge</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2087810252%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-vote-asset.html"><span class="token function">mergeVoteAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>VoteAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteAssetContract vote_asset = 16;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="459840098%2FFunctions%2F274653044" anchor-label="mergeVoteWitness" id="459840098%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-vote-witness.html"><span>merge</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Witness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="459840098%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-vote-witness.html"><span class="token function">mergeVoteWitness</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>VoteWitnessContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteWitnessContract vote_witness = 17;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="814735260%2FFunctions%2F274653044" anchor-label="mergeWithdrawBalance" id="814735260%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-withdraw-balance.html"><span>merge</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="814735260%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-withdraw-balance.html"><span class="token function">mergeWithdrawBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.WithdrawBalanceContract withdraw_balance = 15;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1412540713%2FFunctions%2F274653044" anchor-label="setBlockHeader" id="-1412540713%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-block-header.html"><span>set</span><wbr></wbr><span>Block</span><wbr></wbr><span><span>Header</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1412540713%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-block-header.html"><span class="token function">setBlockHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-block-header.html"><span class="token function">setBlockHeader</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>BlockHeader</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction block header.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">.TW.Tron.Proto.BlockHeader block_header = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1085215835%2FFunctions%2F274653044" anchor-label="setExpiration" id="1085215835%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-expiration.html"><span>set</span><wbr></wbr><span><span>Expiration</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1085215835%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-expiration.html"><span class="token function">setExpiration</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction expiration time in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 expiration = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="28871477%2FFunctions%2F274653044" anchor-label="setFeeLimit" id="28871477%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-fee-limit.html"><span>set</span><wbr></wbr><span>Fee</span><wbr></wbr><span><span>Limit</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="28871477%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-fee-limit.html"><span class="token function">setFeeLimit</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction fee limit
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 fee_limit = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="168491079%2FFunctions%2F274653044" anchor-label="setFreezeBalance" id="168491079%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-freeze-balance.html"><span>set</span><wbr></wbr><span>Freeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="168491079%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-freeze-balance.html"><span class="token function">setFreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-freeze-balance.html"><span class="token function">setFreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>FreezeBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.FreezeBalanceContract freeze_balance = 12;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2065670046%2FFunctions%2F274653044" anchor-label="setTimestamp" id="-2065670046%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-timestamp.html"><span>set</span><wbr></wbr><span><span>Timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2065670046%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-timestamp.html"><span class="token function">setTimestamp</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Transaction timestamp in milliseconds.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">int64 timestamp = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2012979595%2FFunctions%2F274653044" anchor-label="setTransfer" id="2012979595%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-transfer.html"><span>set</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2012979595%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer.html"><span class="token function">setTransfer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer.html"><span class="token function">setTransfer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferContract transfer = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-178859449%2FFunctions%2F274653044" anchor-label="setTransferAsset" id="-178859449%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-transfer-asset.html"><span>set</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-178859449%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-asset.html"><span class="token function">setTransferAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-asset.html"><span class="token function">setTransferAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferAssetContract transfer_asset = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1386372969%2FFunctions%2F274653044" anchor-label="setTransferTrc20Contract" id="-1386372969%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-transfer-trc20-contract.html"><span>set</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Trc20Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1386372969%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-trc20-contract.html"><span class="token function">setTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-trc20-contract.html"><span class="token function">setTransferTrc20Contract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TransferTRC20Contract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TransferTRC20Contract transfer_trc20_contract = 19;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="133049711%2FFunctions%2F274653044" anchor-label="setTriggerSmartContract" id="133049711%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-trigger-smart-contract.html"><span>set</span><wbr></wbr><span>Trigger</span><wbr></wbr><span>Smart</span><wbr></wbr><span><span>Contract</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="133049711%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-trigger-smart-contract.html"><span class="token function">setTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-trigger-smart-contract.html"><span class="token function">setTriggerSmartContract</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TriggerSmartContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.TriggerSmartContract trigger_smart_contract = 18;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1529555109%2FFunctions%2F274653044" anchor-label="setUnfreezeAsset" id="-1529555109%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-unfreeze-asset.html"><span>set</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1529555109%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-unfreeze-asset.html"><span class="token function">setUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-unfreeze-asset.html"><span class="token function">setUnfreezeAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>UnfreezeAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeAssetContract unfreeze_asset = 14;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1676757461%2FFunctions%2F274653044" anchor-label="setUnfreezeBalance" id="-1676757461%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-unfreeze-balance.html"><span>set</span><wbr></wbr><span>Unfreeze</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1676757461%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-unfreeze-balance.html"><span class="token function">setUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-unfreeze-balance.html"><span class="token function">setUnfreezeBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>UnfreezeBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.UnfreezeBalanceContract unfreeze_balance = 13;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1195954109%2FFunctions%2F274653044" anchor-label="setVoteAsset" id="-1195954109%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-vote-asset.html"><span>set</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Asset</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1195954109%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-vote-asset.html"><span class="token function">setVoteAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-vote-asset.html"><span class="token function">setVoteAsset</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>VoteAssetContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteAssetContract vote_asset = 16;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1140268641%2FFunctions%2F274653044" anchor-label="setVoteWitness" id="-1140268641%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-vote-witness.html"><span>set</span><wbr></wbr><span>Vote</span><wbr></wbr><span><span>Witness</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1140268641%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-vote-witness.html"><span class="token function">setVoteWitness</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-vote-witness.html"><span class="token function">setVoteWitness</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>VoteWitnessContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.VoteWitnessContract vote_witness = 17;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="532360595%2FFunctions%2F274653044" anchor-label="setWithdrawBalance" id="532360595%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-withdraw-balance.html"><span>set</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Balance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="532360595%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-balance.html"><span class="token function">setWithdrawBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-balance.html"><span class="token function">setWithdrawBalance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawBalanceContract</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Tron.Transaction.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Tron.Proto.WithdrawBalanceContract withdraw_balance = 15;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

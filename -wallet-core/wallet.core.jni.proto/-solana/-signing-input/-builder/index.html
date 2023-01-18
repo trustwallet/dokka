@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Builder</title>
+    <link href="../../../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../../../styles/style.css" rel="Stylesheet">
+<link href="../../../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../../../styles/main.css" rel="Stylesheet">
+<link href="../../../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../../../index.html">
+                    <span>WalletCore</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="WalletCore::wallet.core.jni.proto/Solana.SigningInput.Builder///PointingToDeclaration//274653044">
+  <div class="breadcrumbs"><a href="../../../../../index.html">WalletCore</a><span class="delimiter">/</span><a href="../../../index.html">wallet.core.jni.proto</a><span class="delimiter">/</span><a href="../../index.html">Solana</a><span class="delimiter">/</span><a href="../index.html">SigningInput</a><span class="delimiter">/</span><span class="current">Builder</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Builder</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Builder</a></div><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Input data necessary to create a signed transaction.
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div> Protobuf type <code class="lang-kotlin">TW.Solana.Proto.SigningInput</code></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-1799907134%2FFunctions%2F274653044" anchor-label="clearCreateAndTransferTokenTransaction" id="-1799907134%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-create-and-transfer-token-transaction.html"><span>clear</span><wbr></wbr><span>Create</span><wbr></wbr><span>And</span><wbr></wbr><span>Transfer</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1799907134%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-create-and-transfer-token-transaction.html"><span class="token function">clearCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateAndTransferToken create_and_transfer_token_transaction = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-694175233%2FFunctions%2F274653044" anchor-label="clearCreateTokenAccountTransaction" id="-694175233%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-create-token-account-transaction.html"><span>clear</span><wbr></wbr><span>Create</span><wbr></wbr><span>Token</span><wbr></wbr><span>Account</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-694175233%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-create-token-account-transaction.html"><span class="token function">clearCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateTokenAccount create_token_account_transaction = 9;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1011204772%2FFunctions%2F274653044" anchor-label="clearDeactivateAllStakeTransaction" id="-1011204772%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-deactivate-all-stake-transaction.html"><span>clear</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>All</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1011204772%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-deactivate-all-stake-transaction.html"><span class="token function">clearDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateAllStake deactivate_all_stake_transaction = 6;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="388078325%2FFunctions%2F274653044" anchor-label="clearDeactivateStakeTransaction" id="388078325%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-deactivate-stake-transaction.html"><span>clear</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="388078325%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-deactivate-stake-transaction.html"><span class="token function">clearDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateStake deactivate_stake_transaction = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-688625404%2FFunctions%2F274653044" anchor-label="clearDelegateStakeTransaction" id="-688625404%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-delegate-stake-transaction.html"><span>clear</span><wbr></wbr><span>Delegate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-688625404%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-delegate-stake-transaction.html"><span class="token function">clearDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DelegateStake delegate_stake_transaction = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-808291023%2FFunctions%2F274653044" anchor-label="clearPrivateKey" id="-808291023%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-private-key.html"><span>clear</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-808291023%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-private-key.html"><span class="token function">clearPrivateKey</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">The secret private key used for signing (32 bytes).
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes private_key = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="136015597%2FFunctions%2F274653044" anchor-label="clearRecentBlockhash" id="136015597%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-recent-blockhash.html"><span>clear</span><wbr></wbr><span>Recent</span><wbr></wbr><span><span>Blockhash</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="136015597%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-recent-blockhash.html"><span class="token function">clearRecentBlockhash</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Relatively recent block hash
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string recent_blockhash = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="715913619%2FFunctions%2F274653044" anchor-label="clearTokenTransferTransaction" id="715913619%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-token-transfer-transaction.html"><span>clear</span><wbr></wbr><span>Token</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="715913619%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-token-transfer-transaction.html"><span class="token function">clearTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.TokenTransfer token_transfer_transaction = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1068847691%2FFunctions%2F274653044" anchor-label="clearTransactionType" id="-1068847691%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-transaction-type.html"><span>clear</span><wbr></wbr><span>Transaction</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1068847691%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-transaction-type.html"><span class="token function">clearTransactionType</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1939805018%2FFunctions%2F274653044" anchor-label="clearTransferTransaction" id="1939805018%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-transfer-transaction.html"><span>clear</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1939805018%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-transfer-transaction.html"><span class="token function">clearTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.Transfer transfer_transaction = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1949096634%2FFunctions%2F274653044" anchor-label="clearWithdrawAllTransaction" id="-1949096634%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-withdraw-all-transaction.html"><span>clear</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1949096634%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-withdraw-all-transaction.html"><span class="token function">clearWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawAllStake withdraw_all_transaction = 8;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="471892729%2FFunctions%2F274653044" anchor-label="clearWithdrawTransaction" id="471892729%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="clear-withdraw-transaction.html"><span>clear</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="471892729%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="clear-withdraw-transaction.html"><span class="token function">clearWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawStake withdraw_transaction = 7;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1844185419%2FFunctions%2F274653044" anchor-label="getCreateAndTransferTokenTransaction" id="1844185419%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-create-and-transfer-token-transaction.html"><span>get</span><wbr></wbr><span>Create</span><wbr></wbr><span>And</span><wbr></wbr><span>Transfer</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1844185419%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-create-and-transfer-token-transaction.html"><span class="token function">getCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>CreateAndTransferToken</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateAndTransferToken create_and_transfer_token_transaction = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-55847160%2FFunctions%2F274653044" anchor-label="getCreateTokenAccountTransaction" id="-55847160%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-create-token-account-transaction.html"><span>get</span><wbr></wbr><span>Create</span><wbr></wbr><span>Token</span><wbr></wbr><span>Account</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-55847160%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-create-token-account-transaction.html"><span class="token function">getCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>CreateTokenAccount</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateTokenAccount create_token_account_transaction = 9;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-372876699%2FFunctions%2F274653044" anchor-label="getDeactivateAllStakeTransaction" id="-372876699%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-deactivate-all-stake-transaction.html"><span>get</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>All</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-372876699%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-deactivate-all-stake-transaction.html"><span class="token function">getDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>DeactivateAllStake</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateAllStake deactivate_all_stake_transaction = 6;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1177862796%2FFunctions%2F274653044" anchor-label="getDeactivateStakeTransaction" id="1177862796%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-deactivate-stake-transaction.html"><span>get</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1177862796%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-deactivate-stake-transaction.html"><span class="token function">getDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>DeactivateStake</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateStake deactivate_stake_transaction = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1291154853%2FFunctions%2F274653044" anchor-label="getDelegateStakeTransaction" id="-1291154853%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-delegate-stake-transaction.html"><span>get</span><wbr></wbr><span>Delegate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1291154853%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-delegate-stake-transaction.html"><span class="token function">getDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>DelegateStake</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DelegateStake delegate_stake_transaction = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1975364296%2FFunctions%2F274653044" anchor-label="getPrivateKey" id="1975364296%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-private-key.html"><span>get</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1975364296%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-private-key.html"><span class="token function">getPrivateKey</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">The secret private key used for signing (32 bytes).
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes private_key = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-812310602%2FFunctions%2F274653044" anchor-label="getRecentBlockhash" id="-812310602%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-recent-blockhash.html"><span>get</span><wbr></wbr><span>Recent</span><wbr></wbr><span><span>Blockhash</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-812310602%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-recent-blockhash.html"><span class="token function">getRecentBlockhash</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Relatively recent block hash
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string recent_blockhash = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-758102663%2FFunctions%2F274653044" anchor-label="getRecentBlockhashBytes" id="-758102663%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-recent-blockhash-bytes.html"><span>get</span><wbr></wbr><span>Recent</span><wbr></wbr><span>Blockhash</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-758102663%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-recent-blockhash-bytes.html"><span class="token function">getRecentBlockhashBytes</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>ByteString</div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Relatively recent block hash
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string recent_blockhash = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="113384170%2FFunctions%2F274653044" anchor-label="getTokenTransferTransaction" id="113384170%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-token-transfer-transaction.html"><span>get</span><wbr></wbr><span>Token</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="113384170%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-token-transfer-transaction.html"><span class="token function">getTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>TokenTransfer</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.TokenTransfer token_transfer_transaction = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2101608274%2FFunctions%2F274653044" anchor-label="getTransactionTypeCase" id="-2101608274%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-transaction-type-case.html"><span>get</span><wbr></wbr><span>Transaction</span><wbr></wbr><span>Type</span><wbr></wbr><span><span>Case</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2101608274%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-transaction-type-case.html"><span class="token function">getTransactionTypeCase</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-transaction-type-case/index.html">Solana.SigningInput.TransactionTypeCase</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1848559709%2FFunctions%2F274653044" anchor-label="getTransferTransaction" id="-1848559709%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-transfer-transaction.html"><span>get</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1848559709%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-transfer-transaction.html"><span class="token function">getTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>Transfer</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.Transfer transfer_transaction = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2027925597%2FFunctions%2F274653044" anchor-label="getWithdrawAllTransaction" id="2027925597%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-withdraw-all-transaction.html"><span>get</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2027925597%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-withdraw-all-transaction.html"><span class="token function">getWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>WithdrawAllStake</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawAllStake withdraw_all_transaction = 8;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="978495298%2FFunctions%2F274653044" anchor-label="getWithdrawTransaction" id="978495298%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-withdraw-transaction.html"><span>get</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="978495298%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-withdraw-transaction.html"><span class="token function">getWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span>WithdrawStake</div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawStake withdraw_transaction = 7;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-6508657%2FFunctions%2F274653044" anchor-label="hasCreateAndTransferTokenTransaction" id="-6508657%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-create-and-transfer-token-transaction.html"><span>has</span><wbr></wbr><span>Create</span><wbr></wbr><span>And</span><wbr></wbr><span>Transfer</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-6508657%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-create-and-transfer-token-transaction.html"><span class="token function">hasCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateAndTransferToken create_and_transfer_token_transaction = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-200130740%2FFunctions%2F274653044" anchor-label="hasCreateTokenAccountTransaction" id="-200130740%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-create-token-account-transaction.html"><span>has</span><wbr></wbr><span>Create</span><wbr></wbr><span>Token</span><wbr></wbr><span>Account</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-200130740%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-create-token-account-transaction.html"><span class="token function">hasCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateTokenAccount create_token_account_transaction = 9;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-517160279%2FFunctions%2F274653044" anchor-label="hasDeactivateAllStakeTransaction" id="-517160279%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-deactivate-all-stake-transaction.html"><span>has</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>All</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-517160279%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-deactivate-all-stake-transaction.html"><span class="token function">hasDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateAllStake deactivate_all_stake_transaction = 6;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-41099064%2FFunctions%2F274653044" anchor-label="hasDeactivateStakeTransaction" id="-41099064%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-deactivate-stake-transaction.html"><span>has</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-41099064%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-deactivate-stake-transaction.html"><span class="token function">hasDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateStake deactivate_stake_transaction = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-519239785%2FFunctions%2F274653044" anchor-label="hasDelegateStakeTransaction" id="-519239785%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-delegate-stake-transaction.html"><span>has</span><wbr></wbr><span>Delegate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-519239785%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-delegate-stake-transaction.html"><span class="token function">hasDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DelegateStake delegate_stake_transaction = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="885299238%2FFunctions%2F274653044" anchor-label="hasTokenTransferTransaction" id="885299238%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-token-transfer-transaction.html"><span>has</span><wbr></wbr><span>Token</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="885299238%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-token-transfer-transaction.html"><span class="token function">hasTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.TokenTransfer token_transfer_transaction = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2033425177%2FFunctions%2F274653044" anchor-label="hasTransferTransaction" id="-2033425177%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-transfer-transaction.html"><span>has</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2033425177%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-transfer-transaction.html"><span class="token function">hasTransferTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.Transfer transfer_transaction = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="848841881%2FFunctions%2F274653044" anchor-label="hasWithdrawAllTransaction" id="848841881%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-withdraw-all-transaction.html"><span>has</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="848841881%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-withdraw-all-transaction.html"><span class="token function">hasWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawAllStake withdraw_all_transaction = 8;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="793629830%2FFunctions%2F274653044" anchor-label="hasWithdrawTransaction" id="793629830%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="has-withdraw-transaction.html"><span>has</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="793629830%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="has-withdraw-transaction.html"><span class="token function">hasWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawStake withdraw_transaction = 7;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-203932735%2FFunctions%2F274653044" anchor-label="mergeCreateAndTransferTokenTransaction" id="-203932735%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-create-and-transfer-token-transaction.html"><span>merge</span><wbr></wbr><span>Create</span><wbr></wbr><span>And</span><wbr></wbr><span>Transfer</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-203932735%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-create-and-transfer-token-transaction.html"><span class="token function">mergeCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>CreateAndTransferToken</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateAndTransferToken create_and_transfer_token_transaction = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-498732921%2FFunctions%2F274653044" anchor-label="mergeCreateTokenAccountTransaction" id="-498732921%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-create-token-account-transaction.html"><span>merge</span><wbr></wbr><span>Create</span><wbr></wbr><span>Token</span><wbr></wbr><span>Account</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-498732921%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-create-token-account-transaction.html"><span class="token function">mergeCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>CreateTokenAccount</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateTokenAccount create_token_account_transaction = 9;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1115694349%2FFunctions%2F274653044" anchor-label="mergeDeactivateAllStakeTransaction" id="1115694349%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-deactivate-all-stake-transaction.html"><span>merge</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>All</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1115694349%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-deactivate-all-stake-transaction.html"><span class="token function">mergeDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DeactivateAllStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateAllStake deactivate_all_stake_transaction = 6;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-448012891%2FFunctions%2F274653044" anchor-label="mergeDeactivateStakeTransaction" id="-448012891%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-deactivate-stake-transaction.html"><span>merge</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-448012891%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-deactivate-stake-transaction.html"><span class="token function">mergeDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DeactivateStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateStake deactivate_stake_transaction = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2007104955%2FFunctions%2F274653044" anchor-label="mergeDelegateStakeTransaction" id="-2007104955%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-delegate-stake-transaction.html"><span>merge</span><wbr></wbr><span>Delegate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2007104955%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-delegate-stake-transaction.html"><span class="token function">mergeDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DelegateStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DelegateStake delegate_stake_transaction = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="474751781%2FFunctions%2F274653044" anchor-label="mergeTokenTransferTransaction" id="474751781%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-token-transfer-transaction.html"><span>merge</span><wbr></wbr><span>Token</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="474751781%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-token-transfer-transaction.html"><span class="token function">mergeTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TokenTransfer</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.TokenTransfer token_transfer_transaction = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1512180881%2FFunctions%2F274653044" anchor-label="mergeTransferTransaction" id="1512180881%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-transfer-transaction.html"><span>merge</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1512180881%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-transfer-transaction.html"><span class="token function">mergeTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>Transfer</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.Transfer transfer_transaction = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1541546109%2FFunctions%2F274653044" anchor-label="mergeWithdrawAllTransaction" id="-1541546109%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-withdraw-all-transaction.html"><span>merge</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1541546109%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-withdraw-all-transaction.html"><span class="token function">mergeWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawAllStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawAllStake withdraw_all_transaction = 8;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1106464139%2FFunctions%2F274653044" anchor-label="mergeWithdrawTransaction" id="-1106464139%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="merge-withdraw-transaction.html"><span>merge</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1106464139%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="merge-withdraw-transaction.html"><span class="token function">mergeWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawStake withdraw_transaction = 7;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-488532619%2FFunctions%2F274653044" anchor-label="setCreateAndTransferTokenTransaction" id="-488532619%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-create-and-transfer-token-transaction.html"><span>set</span><wbr></wbr><span>Create</span><wbr></wbr><span>And</span><wbr></wbr><span>Transfer</span><wbr></wbr><span>Token</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-488532619%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-create-and-transfer-token-transaction.html"><span class="token function">setCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-create-and-transfer-token-transaction.html"><span class="token function">setCreateAndTransferTokenTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>CreateAndTransferToken</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateAndTransferToken create_and_transfer_token_transaction = 11;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-184951295%2FFunctions%2F274653044" anchor-label="setCreateTokenAccountTransaction" id="-184951295%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-create-token-account-transaction.html"><span>set</span><wbr></wbr><span>Create</span><wbr></wbr><span>Token</span><wbr></wbr><span>Account</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-184951295%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-create-token-account-transaction.html"><span class="token function">setCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-create-token-account-transaction.html"><span class="token function">setCreateTokenAccountTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>CreateTokenAccount</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.CreateTokenAccount create_token_account_transaction = 9;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2141101069%2FFunctions%2F274653044" anchor-label="setDeactivateAllStakeTransaction" id="2141101069%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-deactivate-all-stake-transaction.html"><span>set</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>All</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2141101069%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-deactivate-all-stake-transaction.html"><span class="token function">setDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-deactivate-all-stake-transaction.html"><span class="token function">setDeactivateAllStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DeactivateAllStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateAllStake deactivate_all_stake_transaction = 6;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1703611325%2FFunctions%2F274653044" anchor-label="setDeactivateStakeTransaction" id="1703611325%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-deactivate-stake-transaction.html"><span>set</span><wbr></wbr><span>Deactivate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1703611325%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-deactivate-stake-transaction.html"><span class="token function">setDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-deactivate-stake-transaction.html"><span class="token function">setDeactivateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DeactivateStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DeactivateStake deactivate_stake_transaction = 5;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-877513731%2FFunctions%2F274653044" anchor-label="setDelegateStakeTransaction" id="-877513731%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-delegate-stake-transaction.html"><span>set</span><wbr></wbr><span>Delegate</span><wbr></wbr><span>Stake</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-877513731%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-delegate-stake-transaction.html"><span class="token function">setDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-delegate-stake-transaction.html"><span class="token function">setDelegateStakeTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>DelegateStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.DelegateStake delegate_stake_transaction = 4;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1462613112%2FFunctions%2F274653044" anchor-label="setPrivateKey" id="-1462613112%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-private-key.html"><span>set</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1462613112%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-private-key.html"><span class="token function">setPrivateKey</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">The secret private key used for signing (32 bytes).
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">bytes private_key = 1;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-970246467%2FFunctions%2F274653044" anchor-label="setRecentBlockhash" id="-970246467%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-recent-blockhash.html"><span>set</span><wbr></wbr><span>Recent</span><wbr></wbr><span><span>Blockhash</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-970246467%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-recent-blockhash.html"><span class="token function">setRecentBlockhash</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://docs.oracle.com/javase/8/docs/api/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Relatively recent block hash
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string recent_blockhash = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1363814023%2FFunctions%2F274653044" anchor-label="setRecentBlockhashBytes" id="-1363814023%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-recent-blockhash-bytes.html"><span>set</span><wbr></wbr><span>Recent</span><wbr></wbr><span>Blockhash</span><wbr></wbr><span><span>Bytes</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1363814023%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-recent-blockhash-bytes.html"><span class="token function">setRecentBlockhashBytes</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>ByteString</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">Relatively recent block hash
+</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div><code class="lang-kotlin">string recent_blockhash = 2;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1101471165%2FFunctions%2F274653044" anchor-label="setTokenTransferTransaction" id="1101471165%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-token-transfer-transaction.html"><span>set</span><wbr></wbr><span>Token</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1101471165%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-token-transfer-transaction.html"><span class="token function">setTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-token-transfer-transaction.html"><span class="token function">setTokenTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>TokenTransfer</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.TokenTransfer token_transfer_transaction = 10;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-283006443%2FFunctions%2F274653044" anchor-label="setTransferTransaction" id="-283006443%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-transfer-transaction.html"><span>set</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-283006443%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-transaction.html"><span class="token function">setTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-transfer-transaction.html"><span class="token function">setTransferTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>Transfer</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.Transfer transfer_transaction = 3;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1113953479%2FFunctions%2F274653044" anchor-label="setWithdrawAllTransaction" id="-1113953479%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-withdraw-all-transaction.html"><span>set</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span>All</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1113953479%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-all-transaction.html"><span class="token function">setWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-all-transaction.html"><span class="token function">setWithdrawAllTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawAllStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawAllStake withdraw_all_transaction = 8;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="607858553%2FFunctions%2F274653044" anchor-label="setWithdrawTransaction" id="607858553%2FFunctions%2F274653044" data-filterable-set="WalletCore/TrustWallet"></a>
+        <div class="table-row" data-filterable-current="WalletCore/TrustWallet" data-filterable-set="WalletCore/TrustWallet">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-withdraw-transaction.html"><span>set</span><wbr></wbr><span>Withdraw</span><wbr></wbr><span><span>Transaction</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="607858553%2FFunctions%2F274653044"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="WalletCore/TrustWallet"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-transaction.html"><span class="token function">setWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">builderForValue<span class="token operator">: </span>Builder</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="set-withdraw-transaction.html"><span class="token function">setWithdrawTransaction</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span>WithdrawStake</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">Solana.SigningInput.Builder</a></div><div class="brief "><code class="lang-kotlin">.TW.Solana.Proto.WithdrawStake withdraw_transaction = 7;</code></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
