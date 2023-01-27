@@ -15,4 +15,7 @@ jobs:
         run: scripts/download.sh
 
       - name: Process
-        run: scripts/release.sh
+        run: |
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'milerius@users.noreply.github.com'
+          ./scripts/release.sh
